@@ -6,6 +6,7 @@ import Features from "../components/Features"
 import Clients from "../components/Clients"
 import Faq from "../components/Faq"
 import Form from "../components/Form"
+import Blog from "../components/Blog"
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
      <Clients></Clients>
      <Faq></Faq>
      <Form></Form>
+     <Blog></Blog>
     </>
   )
 }
