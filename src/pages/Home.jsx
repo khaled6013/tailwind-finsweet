@@ -4,6 +4,7 @@ import Work from "../components/Work"
 import Project from "../components/Project"
 import Features from "../components/Features"
 import Clients from "../components/Clients"
+import Faq from "../components/Faq"
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
      <Project></Project>
      <Features></Features>
      <Clients></Clients>
+     <Faq></Faq>
     </>
   )
 }
