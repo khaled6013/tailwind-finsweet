@@ -37,7 +37,7 @@ const Faq = () => {
     };
     return (
         <div className="bg-white lg:py-[120px] py-10">
-            <div className="w-10/12 mx-auto">
+            <div className="lg:w-10/12 w-11/12 mx-auto">
                 <div className="lg:flex">
                     <div className="lg:w-2/6">
                         <div className="">

@@ -6,7 +6,7 @@ const Project = () => {
     return (
         <>
             <div className="lg:py-[120px] py-[30px]">
-                <div className="w-10/12 mx-auto">
+                <div className="lg:w-10/12 w-11/12 mx-auto">
                     <div className="lg:flex items-center lg:justify-between">
                         <h1 className="text-[#282938] lg:text-[48px] text-[22px] font-pops lg:font-[600] font-[500]">View our projects</h1>
                         <div className="flex items-center">

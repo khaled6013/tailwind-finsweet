@@ -9,7 +9,7 @@ const Features = () => {
   return (
     <>
       <div className="bg-[#F4F6FC] lg:py-[120px] py-[35px]">
-        <div className="w-10/12 mx-auto">
+        <div className="lg:w-10/12 w-11/12 mx-auto">
           <div className="lg:w-6/12 lg:mx-auto ">
             <div className="">
             <p className="text-[#282938] lg:text-[16px] text-[13px] font-medium font-pops text-center">Features</p>

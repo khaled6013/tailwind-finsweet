@@ -5,6 +5,7 @@ import Project from "../components/Project"
 import Features from "../components/Features"
 import Clients from "../components/Clients"
 import Faq from "../components/Faq"
+import Form from "../components/Form"
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
      <Features></Features>
      <Clients></Clients>
      <Faq></Faq>
+     <Form></Form>
     </>
   )
 }

@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <>
       <div className="bg-red-500 lg:bg-[#1C1E53] lg:py-8 py-6 fixed top-0 left-0 w-full z-999">
-        <div className="w-10/12 mx-auto">
+        <div className="lg:w-10/12 w-11/12 mx-auto">
           <div className="lg:flex">
              <div className="w-4/12">
               <div className="">

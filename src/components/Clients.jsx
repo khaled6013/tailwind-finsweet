@@ -4,7 +4,7 @@ const Clients = () => {
     return (
         <>
             <div className="bg-[#F4F6FC] lg:py-[120px] py-[35px]">
-                <div className="w-10/12 mx-auto">
+                <div className="lg:w-10/12 w-11/12 mx-auto">
                     <div className="lg:flex">
                         <div className="lg:w-2/6 w-full">
                             <div className="">
