@@ -7,6 +7,7 @@ import Clients from "../components/Clients"
 import Faq from "../components/Faq"
 import Form from "../components/Form"
 import Blog from "../components/Blog"
+import Footer from "../components/Footer"
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
      <Faq></Faq>
      <Form></Form>
      <Blog></Blog>
+     <Footer></Footer>
     </>
   )
 }
