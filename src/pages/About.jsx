@@ -1,8 +1,11 @@
-import Blog from "../components/Blog"
+import AboutHero from "../components/AboutHero"
+
 
 const About = () => {
   return (
-    <Blog></Blog>
+    <>
+     <AboutHero></AboutHero>
+    </>
   )
 }
 
