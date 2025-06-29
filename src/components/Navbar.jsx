@@ -2,6 +2,7 @@ import { useState } from 'react';
 import logo from '../assets/logo.png'
 import { FaBars } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   let [show,setshow] = useState(false)
@@ -21,8 +22,8 @@ const Navbar = () => {
              </div>
              <div className="lg:w-8/12 w-full lg:mt-0 relative ">
               <div className={`lg:flex lg:gap-x-8 lg:justify-end lg:items-center lg:static ${show == true ? '' : 'absolute top-0 right-[1000px]'}`}>
-                <a href="#" className='text-[#BBBBCB] font-pops text-[16px] font-medium block lg:mt-0 mt-4'>Home</a>
-                <a href="#" className='text-[#BBBBCB] font-pops text-[16px] font-medium block lg:mt-0 mt-1'>About us</a>
+                <Link to={"/"} className='text-[#BBBBCB] font-pops text-[16px] font-medium block lg:mt-0 mt-4'>Home</Link>
+                <Link to={"/about"} className='text-[#BBBBCB] font-pops text-[16px] font-medium block lg:mt-0 mt-1'>About us</Link>
                 <a href="#" className='text-[#BBBBCB] font-pops text-[16px] font-medium block lg:mt-0 mt-1'>Features</a>
                 <a href="#" className='text-[#BBBBCB] font-pops text-[16px] font-medium block lg:mt-0 mt-1'>Pricing</a>
                 <a href="#" className='text-[#BBBBCB] font-pops text-[16px] font-medium block lg:mt-0 mt-1'>FAQ</a>
